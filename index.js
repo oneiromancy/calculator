@@ -1,3 +1,5 @@
+(() => {
+
 const CalculatorModel = (() => {
     let memory = [];
 
@@ -221,4 +223,6 @@ const CalculatorView = (() => {
     return {
         updateScreenDisplay
     };
+})();
+    
 })();
